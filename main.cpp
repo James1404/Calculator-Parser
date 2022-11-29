@@ -1,3 +1,13 @@
+// Calculator Parser by James Barnfather.
+// 
+// This is a calculator that accepts integer, decminal, and hexadecimal values
+// that your can use to do basic arithmetic.
+// This calculator supports + - / * ^ and executes them in the correct order.
+//
+// This project works by reading through your input and then converting them into tokens,
+// which is then put into the parser, which uses a recursive algorithm to build an abstract sytax tree,
+// which then can be execute and the result it outputted to the console;
+
 #include <string>
 #include <iostream>
 #include <map>
